@@ -34,9 +34,14 @@
             
             if(($year%4 == 0 && $year%100 != 0) || $year%400 == 0):
                 echo "<p class='bisiesto'>";
-
+                echo "<span style=\"color:Green; font:bold 10 pt 'Lucida Sans'\">El año $year es bisiesto</span><br />\n";
+                echo "<span style=\"color:Green; font:bold 10 pt 'Lucida Sans'\"><a href=\"{$_SERVER['PHP_SELF']}\">Probar otro año</span>";
+                echo "</p>";
             else:
-
+                echo "<p class='bisiesto'>";
+                echo "<span style=\"color:Green; font:bold 10 pt 'Lucida Sans'\">El año $year no es bisiesto</span><br />\n";
+                echo "<span style=\"color:Green; font:bold 10 pt 'Lucida Sans'\"><a href=\"{$_SERVER['PHP_SELF']}\">Probar otro año</span>";
+                echo "</p>";
             endif;
         endif;
     ?>
