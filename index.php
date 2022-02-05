@@ -13,8 +13,8 @@
   <body>
 
     <div class="container">
-        <div class="row">
-            <div class="col-8 col-offset-2">
+        <div class="row justify-content-md-center">
+            <div class="col-8 offset-md-2">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action">Lista de prácticas por semana</a>
 
