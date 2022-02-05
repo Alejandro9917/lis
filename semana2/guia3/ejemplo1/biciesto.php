@@ -7,7 +7,7 @@
     <title>Año bisiesto</title>
     
     <link rel="stylesheet" href="css/fonts.css"/>
-    <link rel="stylesheet" href="css/formstyles.css"/>
+    <link rel="stylesheet" href="css/formstyle.css"/>
     <link rel="stylesheet" media="screen" href="css/bisiesto.css">
     <script src="js/validatedata.js"></script>
     <script src="js/prefixfree.min.js"></script>
