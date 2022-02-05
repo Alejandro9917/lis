@@ -11,11 +11,18 @@
     <title>Prácticas de laboratorio LIS03L</title>
   </head>
   <body>
-    <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action">Lista de prácticas por semana</a>
 
-        <a href="/semana1" class="list-group-item list-group-item-action list-group-item-primary">Semana 1</a>
-        <a href="/semana2" class="list-group-item list-group-item-action list-group-item-primary">Semana 2</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-offset-2">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">Lista de prácticas por semana</a>
+
+                <a href="/semana1" class="list-group-item list-group-item-action list-group-item-primary">Semana 1</a>
+                <a href="/semana2" class="list-group-item list-group-item-action list-group-item-primary">Semana 2</a>
+            </div>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
