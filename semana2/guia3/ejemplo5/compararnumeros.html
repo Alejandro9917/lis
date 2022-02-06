@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparar números</title>
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Muli">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/formstyle.css">
+    <script src="js/validar.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Compración de números</h1>
+    </header>
+    <section>
+        <article>
+            <form action="compararnum.php" method="POST" name="frmpalabras">
+                <label for="number1">Primer número:</label>
+                <input type="text" name="number1" id="number1" placeholder="Primer número">
+                <span id="numbersOnly1">Ingrese números enteros</span>
+                <label for="number2">Segundo número</label>
+                <input type="text" name="number2" id="number2" placeholder="Segundo número">
+                <span id="numbersOnly2">Ingrese número enteros</span>
+                <label for="number3">Tercer número</label>
+                <input type="text" name="number3" id="number3" placeholder="Tercer número">
+                <span id="numbersOnly3">Ingrese número enteros</span>
+                <input type="text" name="conteo" id="count" value="Enviar">
+            </form>
+        </article>
+    </section>
+</body>
+</html>
