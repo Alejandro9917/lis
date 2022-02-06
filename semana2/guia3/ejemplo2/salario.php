@@ -40,7 +40,7 @@
                     echo "</table>\n</div>\n";
                 }
             ?>
-            <a href="salario.html" class="a-btn">
+            <a href="salario.php" class="a-btn">
                 <span class="a-btn-symbol">i</span>
                 <span class="a-btn-text">Ingresar</span>
                 <span class="a-btn-slide-text">Otro empleado</span>
