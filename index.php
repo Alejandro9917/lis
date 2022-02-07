@@ -12,7 +12,7 @@
   </head>
   <body>
 
-    <div class="container t-3">
+    <div class="container pt-3">
       <div class="row justify-content-md-center">
 
         <div class="card" style="width: 18rem;">
@@ -67,7 +67,7 @@
               <a href="semana2/practica2/factorial.php" class="list-group-item list-group-item-action">Factorial</a>
               <a href="semana2/practica2/index.php" class="list-group-item list-group-item-action">Index</a>
             </div>
-            <p class="t-3">Guía 3</p>
+            <p class="pt-3">Guía 3</p>
             <div class="list-group">
               <a href="semana2/guia3/ejemplo1/biciesto.php" class="list-group-item list-group-item-action">Año biciesto</a>
               <a href="semana2/guia3/ejemplo2/salario.php" class="list-group-item list-group-item-action">Salario</a>
@@ -75,7 +75,7 @@
               <a href="semana2/guia3/ejemplo4/fechahora.php" class="list-group-item list-group-item-action">Fecha Hora</a>
               <a href="semana2/guia3/ejemplo5/compararnum.php" class="list-group-item list-group-item-action">Comparar Números</a>
             </div>
-            <p class="t-3">Guía 4</p>
+            <p class="pt-3">Guía 4</p>
             <div class="list-group">
               <a href="semana2/guia4/ejemplo1/convertir.php" class="list-group-item list-group-item-action">Convertir</a>
               <a href="semana2/guia4/ejemplo2/convmonedas.php" class="list-group-item list-group-item-action">Convertir monedas</a>
