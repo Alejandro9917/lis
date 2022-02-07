@@ -13,66 +13,81 @@
   <body>
 
     <div class="container p-3">
-        <div class="row justify-content-md-center">
+      <div class="row justify-content-md-center">
 
-          <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Semana 1</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal-week-1" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="list-group">
-                    <a href="semana1/practica1/HolaMundo.php" class="list-group-item list-group-item-action">Hola mundo</a>
-                    <a href="semana1/practica1/IngresoDatos.html" class="list-group-item list-group-item-action">Procesar Datos</a>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal-week-1">Close</button>
-                </div>
-              </div>
-            </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Semana 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-1">Launch demo modal</button>
           </div>
-
-          <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Semana 2</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal-week-2" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <p>Práctica 2</p>
-                  <div class="list-group">
-                    <a href="semana2/practica2/calculadoraCum.php" class="list-group-item list-group-item-action">Calculadora de Cum</a>
-                    <a href="semana2/practica2/factorial.php" class="list-group-item list-group-item-action">Factorial</a>
-                    <a href="semana2/practica2/index.php" class="list-group-item list-group-item-action">Index</a>
-                  </div>
-                  <p>Guía 3</p>
-                  <div class="list-group">
-                    <a href="semana2/guia3/ejemplo1/biciesto.php" class="list-group-item list-group-item-action">Año biciesto</a>
-                    <a href="semana2/guia3/ejemplo2/salario.php" class="list-group-item list-group-item-action">Salario</a>
-                    <a href="semana2/guia3/ejemplo3/idioma.php" class="list-group-item list-group-item-action">Idioma</a>
-                    <a href="semana2/guia3/ejemplo4/fechahora.php" class="list-group-item list-group-item-action">Fecha Hora</a>
-                    <a href="semana2/guia3/ejemplo5/compararnum.php" class="list-group-item list-group-item-action">Comparar Números</a>
-                  </div>
-                  <p>Guía 3</p>
-                  <div class="list-group">
-                    <a href="semana2/guia4/ejemplo1/convertir.php" class="list-group-item list-group-item-action">Convertir</a>
-                    <a href="semana2/guia4/ejemplo2/convmonedas.php" class="list-group-item list-group-item-action">Convertir monedas</a>
-                    <a href="semana2/guia4/ejemplo3/intervalos.php" class="list-group-item list-group-item-action">Intervalos</a>
-                    <a href="semana2/guia4/ejemplo4/fechahora.php" class="list-group-item list-group-item-action">Fecha Hora</a>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal-week-2">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
+        
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Semana 2/h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-2">Launch demo modal</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-week-1" tabindex="-1" aria-labelledby="modal-week-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Semana 1</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal-week-1" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="list-group">
+              <a href="semana1/practica1/HolaMundo.php" class="list-group-item list-group-item-action">Hola mundo</a>
+              <a href="semana1/practica1/IngresoDatos.html" class="list-group-item list-group-item-action">Procesar Datos</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal-week-1">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-week-2" tabindex="-1" aria-labelledby="modal-week-2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Semana 2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal-week-2" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Práctica 2</p>
+            <div class="list-group">
+              <a href="semana2/practica2/calculadoraCum.php" class="list-group-item list-group-item-action">Calculadora de Cum</a>
+              <a href="semana2/practica2/factorial.php" class="list-group-item list-group-item-action">Factorial</a>
+              <a href="semana2/practica2/index.php" class="list-group-item list-group-item-action">Index</a>
+            </div>
+            <p>Guía 3</p>
+            <div class="list-group">
+              <a href="semana2/guia3/ejemplo1/biciesto.php" class="list-group-item list-group-item-action">Año biciesto</a>
+              <a href="semana2/guia3/ejemplo2/salario.php" class="list-group-item list-group-item-action">Salario</a>
+              <a href="semana2/guia3/ejemplo3/idioma.php" class="list-group-item list-group-item-action">Idioma</a>
+              <a href="semana2/guia3/ejemplo4/fechahora.php" class="list-group-item list-group-item-action">Fecha Hora</a>
+              <a href="semana2/guia3/ejemplo5/compararnum.php" class="list-group-item list-group-item-action">Comparar Números</a>
+            </div>
+            <p>Guía 3</p>
+            <div class="list-group">
+              <a href="semana2/guia4/ejemplo1/convertir.php" class="list-group-item list-group-item-action">Convertir</a>
+              <a href="semana2/guia4/ejemplo2/convmonedas.php" class="list-group-item list-group-item-action">Convertir monedas</a>
+              <a href="semana2/guia4/ejemplo3/intervalos.php" class="list-group-item list-group-item-action">Intervalos</a>
+              <a href="semana2/guia4/ejemplo4/fechahora.php" class="list-group-item list-group-item-action">Fecha Hora</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal-week-2">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
