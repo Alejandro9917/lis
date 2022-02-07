@@ -18,15 +18,15 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Semana 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Ejercicios de la semana 1</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-1">Launch demo modal</button>
           </div>
         </div>
         
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Semana 2/h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Semana 2</h5>
+            <p class="card-text">Ejercicios de la semana 2</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-2">Launch demo modal</button>
           </div>
         </div>
@@ -67,7 +67,7 @@
               <a href="semana2/practica2/factorial.php" class="list-group-item list-group-item-action">Factorial</a>
               <a href="semana2/practica2/index.php" class="list-group-item list-group-item-action">Index</a>
             </div>
-            <p>Guía 3</p>
+            <p class="p-3">Guía 3</p>
             <div class="list-group">
               <a href="semana2/guia3/ejemplo1/biciesto.php" class="list-group-item list-group-item-action">Año biciesto</a>
               <a href="semana2/guia3/ejemplo2/salario.php" class="list-group-item list-group-item-action">Salario</a>
@@ -75,7 +75,7 @@
               <a href="semana2/guia3/ejemplo4/fechahora.php" class="list-group-item list-group-item-action">Fecha Hora</a>
               <a href="semana2/guia3/ejemplo5/compararnum.php" class="list-group-item list-group-item-action">Comparar Números</a>
             </div>
-            <p>Guía 3</p>
+            <p class="p-3">Guía 4</p>
             <div class="list-group">
               <a href="semana2/guia4/ejemplo1/convertir.php" class="list-group-item list-group-item-action">Convertir</a>
               <a href="semana2/guia4/ejemplo2/convmonedas.php" class="list-group-item list-group-item-action">Convertir monedas</a>
