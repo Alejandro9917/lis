@@ -19,7 +19,7 @@
           <div class="card-body">
             <h5 class="card-title">Semana 1</h5>
             <p class="card-text">Ejercicios de la semana 1</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-1">Launch demo modal</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-1">Ver ejercicios de la semana</button>
           </div>
         </div>
         
@@ -27,7 +27,15 @@
           <div class="card-body">
             <h5 class="card-title">Semana 2</h5>
             <p class="card-text">Ejercicios de la semana 2</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-2">Launch demo modal</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-2">LVer ejercicios de la semana</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Semana 4</h5>
+            <p class="card-text">Ejercicios de la semana 4</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-4">Ver ejercicios de la semana</button>
           </div>
         </div>
       </div>
@@ -63,9 +71,8 @@
           <div class="modal-body">
             <p>Práctica 2</p>
             <div class="list-group">
-              <a href="semana2/practica2/calculadoraCum.php" class="list-group-item list-group-item-action">Calculadora de Cum</a>
-              <a href="semana2/practica2/factorial.php" class="list-group-item list-group-item-action">Factorial</a>
               <a href="semana2/practica2/index.php" class="list-group-item list-group-item-action">Index</a>
+              <a href="semana2/practica2/factorial.php" class="list-group-item list-group-item-action">Factorial</a>
             </div>
             <p class="pt-3">Guía 3</p>
             <div class="list-group">
@@ -81,6 +88,36 @@
               <a href="semana2/guia4/ejemplo2/convmonedas.php" class="list-group-item list-group-item-action">Convertir monedas</a>
               <a href="semana2/guia4/ejemplo3/intervalos.php" class="list-group-item list-group-item-action">Intervalos</a>
               <a href="semana2/guia4/ejemplo4/fechahora.php" class="list-group-item list-group-item-action">Fecha Hora</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-week-4" tabindex="-1" aria-labelledby="modal-week-4-Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Semana 4</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="pt-3">Guía 6</p>
+            <div class="list-group">
+              <a href="semana4/guia6/ejemplo1/monedas.php" class="list-group-item list-group-item-action">Monedas</a>
+              <a href="semana4/guia6/ejemplo2/fibonacci.php" class="list-group-item list-group-item-action">Fibonacci</a>
+              <a href="semana4/guia6/ejemplo3/elmayor.php" class="list-group-item list-group-item-action">El Mayor</a>
+              <a href="semana4/guia6/ejemplo4/destinos.php" class="list-group-item list-group-item-action">Destinos</a>
+            </div>
+            <p class="pt-3">Guía 7</p>
+            <div class="list-group">
+              <a href="semana4/guia7/ejemplo1/contadorpalabras.php" class="list-group-item list-group-item-action">Contador de palabras</a>
+              <a href="semana4/guia7/ejemplo2/listaenlaces.php" class="list-group-item list-group-item-action">Lista de enlaces</a>
+              <a href="semana4/guia7/ejemplo3/buscadorpalabras.php" class="list-group-item list-group-item-action">Buscador de palabras</a>
+              <a href="semana4/guia7/ejemplo4/uploadfile.php" class="list-group-item list-group-item-action">Subir archivo</a>
             </div>
           </div>
           <div class="modal-footer">
