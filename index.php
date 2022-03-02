@@ -38,6 +38,14 @@
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-4">Ver ejercicios de la semana</button>
           </div>
         </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Semana 6</h5>
+            <p class="card-text">Ejercicios de la semana 6</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-week-6">Ver ejercicios de la semana</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -118,6 +126,29 @@
               <a href="semana4/guia7/ejemplo2/listaenlaces.php" class="list-group-item list-group-item-action">Lista de enlaces</a>
               <a href="semana4/guia7/ejemplo3/buscadorpalabras.php" class="list-group-item list-group-item-action">Buscador de palabras</a>
               <a href="semana4/guia7/ejemplo4/uploadfile.php" class="list-group-item list-group-item-action">Subir archivo</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-week-6" tabindex="-1" aria-labelledby="modal-week-6-Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Semana 6</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="pt-3">Guía 8</p>
+            <div class="list-group">
+              <a href="semana6/guia8/ejemplo1/autospoo.php" class="list-group-item list-group-item-action">Autos</a>
+              <a href="semana6/guia8/ejemplo2/bankform.php" class="list-group-item list-group-item-action">Banco</a>
+              <a href="semana6/guia8/ejemplo3/sueldoneto.php" class="list-group-item list-group-item-action">Empleados</a>
+              <a href="semana6/guia8/ejemplo4/distanciadospuntos.php" class="list-group-item list-group-item-action">Distancia de dos puntos</a>
             </div>
           </div>
           <div class="modal-footer">
